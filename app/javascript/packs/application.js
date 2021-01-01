@@ -16,4 +16,5 @@
 // const imagePath = (name) => images(name, true)
 
 import 'bootstrap'
+import '@fontawesome/fontawesome-free/js/all'
 import '../src/application.scss'
