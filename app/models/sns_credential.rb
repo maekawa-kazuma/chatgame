@@ -1,3 +1,4 @@
 class SnsCredential < ApplicationRecord
-  belongs_to :user
+  #optional: trueにより外部キー（user_id)なしでも保存できるように
+  belongs_to :user, optional: true
 end
