@@ -18,3 +18,4 @@
 import 'bootstrap'
 import '@fontawesome/fontawesome-free/js/all'
 import '../src/application.scss'
+require('jquery');
