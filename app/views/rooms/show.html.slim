@@ -2,3 +2,7 @@ h1
   チャットルーム
 div#messages
   = render @messages
+
+= label_tag :content, 'Say something:'
+/ text_field_tag(要素名 [, 値, オプション])
+= text_field_tag :content, nil, data: { behavior: 'room_speaker' }
